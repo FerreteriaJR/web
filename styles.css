@@ -351,14 +351,20 @@ section{
 
 
     .carousel {
-        position: relative;
-        width:  200%; 
-        height: 350px;
-        margin-left: 10%;
-        margin-left: 10%;
-    
- 
+        max-width: 95%;
+        max-height: 700px;
+        margin-right: 0;
+        margin-left: 0;
         border-radius: 10px;
+    }
+
+    .carousel img {
+        min-height: auto;
+    }
+
+    .slide img {
+        max-width: 100%;
+        max-height: auto;
     }
 
     .imgs img{
